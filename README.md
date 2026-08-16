@@ -29,9 +29,15 @@
 ### 📡 데이터 수집 및 스케줄링 (재현성 및 기술 원리)
 - **수집 방식:** Make의 RSS 모듈을 통한 **HTTP Polling** 방식. XML 데이터를 파싱하여 개별 아이템으로 분리합니다.
 - **스케줄링:** 매일 **08:00 (Asia/Seoul)**에 자동 실행되도록 Make 내부 스케줄러(Cron 방식)를 설정했습니다.
-- **증빙:**
+- **증빙:** <BR>
+**매일 08:00에 성공(Success)한 기록 증빙** <BR>
+ <img width="1238" height="691" alt="MAKE2" src="https://github.com/user-attachments/assets/ee4b6283-60b9-4470-a609-cdbf72e2e85c" /> <Br><BR>
 
- <img width="1238" height="691" alt="MAKE2" src="https://github.com/user-attachments/assets/ee4b6283-60b9-4470-a609-cdbf72e2e85c" /> <Br>
+- **수집 데이터(Output)	RSS Output** <BR>
+RSS 모듈이 실제 논문 데이터를 파싱한 결과값 증빙 <BR>
+
+<img width="436" height="885" alt="MAKE3" src="https://github.com/user-attachments/assets/324221b3-9e4e-4df4-b12c-5b133821da40" /> <BR><bR>
+
 
 
 ### 🔍 중복 방지 전략 (Duplicate Key)
