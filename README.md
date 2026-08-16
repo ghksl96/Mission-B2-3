@@ -12,9 +12,9 @@
 
 ## 2. 자동화 워크플로우 구조
 
-### 🖼 워크플로우 스크린샷
-![Workflow Screenshot](https://via.placeholder.com/800x400?text=Make+Workflow+Screenshot+이미지를+여기에+업로드하세요)
-*Make.com에서 구성한 전체 시나리오 모습*
+### 🖼 워크플로우 스크린샷 <BR>
+<img width="864" height="483" alt="MAKE1" src="https://github.com/user-attachments/assets/e3e18a62-30d4-4212-b0e0-cc80364338be" /> <BR><BR>
+
 
 ### ⚙️ 단계별 상세 역할
 1. **RSS (arXiv):** 매일 오전 8시, `cs.AI` 카테고리의 최신 논문 정보를 수집합니다.
@@ -41,7 +41,7 @@ AI가 가공한 콘텐츠가 아래와 같은 속성으로 자동 저장됩니�
 ## 4. 기획 및 설계 상세
 
 ### 👥 팀 역할 및 작업 요약
-- **담당자**: [본인 성함]
+- **담당자**: [노현우]
 - **작업 내용**: 
   - Make 시나리오 전체 아키텍처 설계
   - Gemini API 프롬프트 엔지니어링 (한국어 요약 최적화)
